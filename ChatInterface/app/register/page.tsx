@@ -13,12 +13,12 @@ import { useTheme } from "@/components/theme-provider"
 import Link from "next/link"
 
 const CURRENCIES = [
-  { code: "USD", name: "USD" },
-  { code: "EUR", name: "EUR" },
-  { code: "GBP", name: "GBP" },
-  { code: "JPY", name: "JPY" },
-  { code: "AUD", name: "AUD" },
-  { code: "INR", name: "INR" },
+  { code: "USD", name: "US Dollar" },
+  { code: "EUR", name: "Euro" },
+  { code: "GBP", name: "British Pound" },
+  { code: "JPY", name: "Japanese Yen" },
+  { code: "AUD", name: "Australian Dollar" },
+  { code: "INR", name: "Indian Rupee" },
 ]
 
 const COUNTRIES = [
