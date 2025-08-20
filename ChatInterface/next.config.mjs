@@ -10,7 +10,7 @@ const nextConfig = {
     unoptimized: true,
   },
   // 👇 add this line for reverse proxy under /app
-  basePath: '/app',
+  basePath: '/front',
 }
 
 export default nextConfig
