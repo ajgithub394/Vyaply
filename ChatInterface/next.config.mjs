@@ -9,6 +9,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  // 👇 add this line for reverse proxy under /app
+  basePath: '/app',
 }
 
 export default nextConfig
